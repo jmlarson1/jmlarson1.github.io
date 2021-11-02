@@ -26,3 +26,7 @@ h1 {
   align-items: center;
   justify-content: left
 }
+
+h4 {
+  margin-bottom: 0px;
+}
