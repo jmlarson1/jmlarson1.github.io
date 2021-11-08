@@ -9,7 +9,7 @@ body {
 
 /* Applies to all <h1>...</h1> elements. */
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
   margin-top: 5px;
 }
@@ -26,3 +26,21 @@ h1 {
   align-items: center;
   justify-content: left
 }
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content:"\25A0";
+  font-size: 1rem;
+  color: #0082ca; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+
